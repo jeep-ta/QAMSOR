@@ -65,7 +65,7 @@ if __name__ == "__main__":
     if os.path.exists(csv_file_path):
         results = run_monte_carlo_simulation(
             csv_path=csv_file_path, 
-            iterations=5000, 
+            iterations=10000, 
             drainage_efficiency=65
         )
         
